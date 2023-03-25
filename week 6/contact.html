@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="mystyle.css">
+
+<style>
+    
+nav  {
+  background-color: lightgray; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+    background-color: deepskyblue;
+    background-image: linear-gradient(blue, deepskyblue);}
+
+nav li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+    img.imageexample {
+      border: 1px solid #ddd;
+      padding: 5px;
+      width: 150px;
+       border-radius: 4px; 
+       display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+    /* opacity: 75%; */
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+    /* opacity: 100% */
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+    /* background-color: #999999; */
+}
+    
+footer {
+  background-color: gray;
+    }
+
+footer li {
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+    /* background-color: deepskyblue; */
+}
+
+/* footer li a {
+    text-decoration: none;
+}
+
+    
+</style>
+    <link href="mystyle.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Start Navigation Button Exercise -->
+    
+<nav>
+<ul>
+<li><a href="corey-components.html">Home</a></li>
+<li><a href="aboutus.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<!-- End Navigation Button Exercise -->
+    
+<!-- Start Image Exercise -->
+    
+   
+     <h1>Contact Us </h1>
+    <p> Please fill in the below information</p>
+
+        
+        <!--
+            MADE WITH <3 AND JAVASCRIPT
+        -->
+        
+        <p style="border: 1px solid black">Your Name</p>
+<div style="border: 1px solid black">Your Email Address</div>
+   
+ <p style="border: 1px solid black">Subject</p>
+<div style="border: 1px solid black">Body</div>
+   
+<!-- End Image Exercise-->
+
+<!-- Start Gallery Exercise>
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_5terre.jpg">
+    <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Cinque Terre" width="700" height="600">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_forest.jpg">
+    <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" width="400" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_lights.jpg">
+    <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_mountains.jpg">
+    <img src="https://www.w3schools.com/css/img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<!-- End Gallery Exercise -->
+    
+<!-- Start Thumbnail swap exercise >
+    
+<img id="myThumbnail" src="https://www.w3schools.com/css/img_mountains.jpg" style="display:block; width: 200px;" onclick="document.getElementById('myImage').src='https://www.w3schools.com/css/img_mountains.jpg', document.getElementById('myThumbnail').style.display='none', document.getElementById('myImage').style.display='block'">  
+<img id="myImage" src="" style="width:400px; position: relative; display: none;" onclick="document.getElementById('myImage').style.display='none', document.getElementById('myThumbnail').style.display='block'"> 
+<!-- End Thumbnail swap exercise -->
+
+<!-- Start Footer Exercise-->
+        
+<footer>
+
+<ul>
+<li><a href="corey-components.html">Home</a></li>
+<li><a href="aboutus.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<p style="float: right;">&copy;2023 Corey Fortune</p>
+
+</footer>
+    
+<!-- End Footer Exercise-->
+    
+    
+</body>
+</html>
