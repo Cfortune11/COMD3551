@@ -1,6 +1,32 @@
 body{
-    background-color:#B4F9FF
+    background-color:dodgerblue;
+}
+
+h1{
+    color: black;
+    font-family: sans-serif;
+}
+
+h2{
+    color: black;
+    font-family: sans-serif;
 }
 
 
 
+h3{
+    color: black;
+    font-family: sans-serif;
+}
+
+
+h4{
+    color: black;
+    font-family: sans-serif;
+}
+
+
+p{
+ color: black;
+     font-family: monospace;
+}
