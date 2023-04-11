@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+<style>
+    
+nav  {
+  background-color: white; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+    background-color: deepskyblue;
+    background-image: linear-gradient(blue, deepskyblue);}
+
+nav li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+    img.imageexample {
+      border: 1px solid #ddd;
+      padding: 5px;
+      width: 150px;
+       border-radius: 4px; 
+       display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+    /* opacity: 75%; */
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+    /* opacity: 100% */
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+    /* background-color: #999999; */
+}
+    
+footer {
+  background-color: gray;
+    }
+
+footer li {
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+    /* background-color: deepskyblue; */
+}
+
+/* footer li a {
+    text-decoration: none;
+}
+
+    
+</style>
+</head>
+<body>
+
+<!-- Start Navigation Button Exercise -->
+    
+<nav>
+<ul>
+<li><a href="corey-components.html">Home</a></li>
+<li><a href="aboutus.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="image-gallery.html">Image Gallery</a></li>
+
+</ul>
+</nav>
+
+<!-- End Navigation Button Exercise -->
+    
+<!-- Start Image Exercise -->
+    
+    <img src=climatedigital.jpg width="1200" height="400"> 
+     <h1>Raising awareness on climate change </h1>
+
+        
+        <!--
+            MADE WITH <3 AND JAVASCRIPT
+        -->
+        
+        <p>
+          Raising awareness and thereby understanding of the effects of climate change on health will facilitate both behavioural change and societal support for the actions needed to reduce greenhouse gas emissions. It can also help in getting health-care professionals to support strategies for mitigation and adaptation that will both improve health and reduce vulnerability.
+        </p>
+    
+     <h2>What is the link between fossil fuels and climate change? </h2>
+    <p>When fossil fuels are burned, they release large amounts of carbon dioxide, a greenhouse gas, into the air. Greenhouse gases trap heat in our atmosphere, causing global warming. Already the average global temperature has increased by 1C. Warming above 1.5°C risks further sea level rise, extreme weather, biodiversity loss and species extinction, as well as food scarcity, worsening health and poverty for millions of people worldwide. </p>
+    
+    <h3>What are fossil fuels?</h3>
+    <p>Fossil fuels are formed from the decomposition of buried carbon-based organisms that died millions of years ago. They create carbon-rich deposits that are extracted and burned for energy. They are non-renewable and currently supply around 80% of the world’s energy. They are also used to make plastic, steel and a huge range of products. There are three types of fossil fuel – coal, oil and gas.</p>
+    
+    <h4>How big is the impact of fossil fuels on climate change and our planet?</h4>
+    <p>The Intergovernmental Panel on Climate Change (IPCC) has found that emissions from fossil fuels are the dominant cause of global warming. In 2018, 89% of global CO2 emissions came from fossil fuels and industry. Coal is a fossil fuel, and is the dirtiest of them all, responsible for over 0.3C of the 1C increase in global average temperatures. This makes it the single largest source of global temperature rise. Oil releases a huge amount of carbon when burned - approximately a third of the world’s total carbon emissions. There have also been a number of oil spills in recent years that have a devastating impact on our ocean’s ecosystem. Natural gas is often promoted as a cleaner energy source than coal and oil. However, natural gas is still a fossil fuel and accounts for a fifth of the world’s total carbon emissions.</p>
+
+<!-- End Image Exercise-->
+
+<!-- Start Gallery Exercise>
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_5terre.jpg">
+    <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Cinque Terre" width="700" height="600">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_forest.jpg">
+    <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" width="400" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_lights.jpg">
+    <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_mountains.jpg">
+    <img src="https://www.w3schools.com/css/img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<!-- End Gallery Exercise -->
+    
+<!-- Start Thumbnail swap exercise >
+    
+<img id="myThumbnail" src="https://www.w3schools.com/css/img_mountains.jpg" style="display:block; width: 200px;" onclick="document.getElementById('myImage').src='https://www.w3schools.com/css/img_mountains.jpg', document.getElementById('myThumbnail').style.display='none', document.getElementById('myImage').style.display='block'">  
+<img id="myImage" src="" style="width:400px; position: relative; display: none;" onclick="document.getElementById('myImage').style.display='none', document.getElementById('myThumbnail').style.display='block'"> 
+<!-- End Thumbnail swap exercise -->
+
+<!-- Start Footer Exercise-->
+        
+<footer>
+
+<ul>
+<li><a href="corey-components.html">Home</a></li>
+<li><a href="aboutus.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="image-gallery.html">Image Gallery</a></li>
+</ul>
+<p style="float: right;">&copy;2023 Corey Fortune</p>
+
+</footer>
+    
+<!-- End Footer Exercise-->
+    
+    
+</body>
+</html>
