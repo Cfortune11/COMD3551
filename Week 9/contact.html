@@ -2,7 +2,7 @@
 <html>
 <head>
         <link rel="stylesheet" href="mystyle.css">
-          <link rel="stylesheet" href="my-styles.css">
+<link href="contact-form.css" rel="stylesheet">
 
 <style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -101,54 +101,56 @@ footer li {
 <!-- Start Image Exercise -->
     
    
-     <h1>Contact Us </h1>
-    <p> Please fill in the below information</p>
-
-        
-        <!--
-            MADE WITH <3 AND JAVASCRIPT
-        -->
-        
-        <p style="border: 1px solid black">Your Name</p>
-<p style="border: 1px solid black">Your Email Address</p>
-   
- <p style="border: 1px solid black">Subject</p>
-<p style="border: 1px solid black">Body</p>
+     
    
 <!-- End Image Exercise-->
 
-<!-- Start Gallery Exercise>
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_5terre.jpg">
-    <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Cinque Terre" width="700" height="600">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_forest.jpg">
-    <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" width="400" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_lights.jpg">
-    <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_mountains.jpg">
-    <img src="https://www.w3schools.com/css/img_mountains.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-<!-- End Gallery Exercise -->
-    
-<!-- Start Thumbnail swap exercise >
-    
-<img id="myThumbnail" src="https://www.w3schools.com/css/img_mountains.jpg" style="display:block; width: 200px;" onclick="document.getElementById('myImage').src='https://www.w3schools.com/css/img_mountains.jpg', document.getElementById('myThumbnail').style.display='none', document.getElementById('myImage').style.display='block'">  
-<img id="myImage" src="" style="width:400px; position: relative; display: none;" onclick="document.getElementById('myImage').style.display='none', document.getElementById('myThumbnail').style.display='block'"> 
-<!-- End Thumbnail swap exercise -->
+        <div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="https:www.whysel.com/citytech/contact-form-corey.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+        Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
+        </div>
+
+    </form>
+    </div>
+        
+
+        
+        
+        
+        
+        
+        
 
 <!-- Start Footer Exercise-->
         
