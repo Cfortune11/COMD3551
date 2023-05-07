@@ -2,9 +2,12 @@
 <html>
 <head>
         <link rel="stylesheet" href="mystyle.css">
+         <link rel="stylesheet" href="my-styles.css">
+
 
 <style>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 nav  {
   background-color: white; 
   list-style-type: none;
@@ -39,7 +42,7 @@ nav li a {
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  float: inherit;
+  float: right;
   width: 180px;
     /* opacity: 75%; */
 }
@@ -90,7 +93,7 @@ footer li {
     
 <nav>
 <ul>
-<li><a href="index.html">Home</a></li>
+<li><a href="corey-components.html">Home</a></li>
 <li><a href="aboutus.html">About Us</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li><a href="image-gallery.html">Image Gallery</a></li>
@@ -111,51 +114,37 @@ footer li {
 <!-- End Image Exercise-->
 
 <!-- Start Gallery Exercise-->
-<div class="gallery">
-  <a target="_blank" >
-    <img src= leaf.jpg  width="400" height="400">
-  </a>
-  
-</div>
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_forest.jpg">
-    <img src="Greenland.jpg" alt="Forest" width="400" height="400">
-  </a>
-</div>
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_lights.jpg">
-    <img src="grass.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  
-</div>
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_mountains.jpg">
-    <img src="polar-bear-ice.jpg" alt="Mountains" width="400" height="400">
-  </a>
-  
-</div>
-    <div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/css/img_mountains.jpg">
-    <img src="factory.jpg" alt="Mountains" width="400" height="400">
-  </a>
-  
-</div>
-  
-    
-<!-- End Gallery Exercise -->
-    
-<!-- Start Thumbnail swap exercise >
-    
-<img id="myThumbnail" src="https://www.w3schools.com/css/img_mountains.jpg" style="display:block; width: 200px;" onclick="document.getElementById('myImage').src='https://www.w3schools.com/css/img_mountains.jpg', document.getElementById('myThumbnail').style.display='none', document.getElementById('myImage').style.display='block'">  
-<img id="myImage" src="" style="width:400px; position: relative; display: none;" onclick="document.getElementById('myImage').style.display='none', document.getElementById('myThumbnail').style.display='block'"> 
-<!-- End Thumbnail swap exercise -->
 
-<!-- Start Footer Exercise-->
+<section class="w3-row-padding">
+      
+    <article class="w3-col s12 m4 l4">
+       
+        <p><img src="factory.jpg" /></p>
+    </article>
+    <article class="w3-col s12 m4 l4">
         
+        <p><img src="leaf.jpg" /></p>
+      </article>
+    <article class="w3-col s12 m4 l4">
+      
+        <p><img src="polar-bear-ice.jpg" /></p>
+      </article>
+          <article class="w3-col s12 m4 l4">
+        
+        <p><img src="grass.jpeg" /></p>
+    </article>
+    <article class="w3-col s12 m4 l4">
+        
+        <p><img src="Greenland.jpg" /></p>
+      </article>
+  </section>
+    
+  <section class="w3-container">
+    
 <footer>
 
 <ul>
-<li><a href="index.html">Home</a></li>
+<li><a href="corey-components.html">Home</a></li>
 <li><a href="aboutus.html">About</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li><a href="image-gallery.html">Image Gallery</a></li>
